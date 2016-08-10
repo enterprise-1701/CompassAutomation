@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="1" failures="1" name="TestSuite" time="72.655" errors="0" skipped="0">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="JOB_NAME" value="CompassAutomation"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log"/>
+    <property name="NUMBER_OF_PROCESSORS" value="4"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="JENKINS_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="HUDSON_SERVER_COOKIE" value="e365e32deb8c86f4"/>
+    <property name="POM_ARTIFACTID" value="AutomationFramework"/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_77\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_77\jre\classes"/>
+    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="POM_DISPLAYNAME" value="AutomationFramework"/>
+    <property name="NODE_LABELS" value="master"/>
+    <property name="TEMP" value="C:\WINDOWS\TEMP"/>
+    <property name="java.runtime.version" value="1.8.0_77-b03"/>
+    <property name="user.name" value="NACTS-081729$"/>
+    <property name="RoxioCentral" value="C:\Program Files (x86)\Common Files\Roxio Shared\10.0\Roxio Central36\"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="CommonProgramW6432" value="C:\Program Files\Common Files"/>
+    <property name="ProgramFiles" value="C:\Program Files (x86)"/>
+    <property name="user.language" value="en"/>
+    <property name="BUILD_DISPLAY_NAME" value="#81"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_77\jre\bin"/>
+    <property name="LOCALAPPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Local"/>
+    <property name="java.version" value="1.8.0_77"/>
+    <property name="PROCESSOR_LEVEL" value="6"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="USERNAME" value="NACTS-081729$"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="NODE_NAME" value="master"/>
+    <property name="PROCESSOR_ARCHITEW6432" value="AMD64"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\endorsed"/>
+    <property name="BUILD_ID" value="81"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="org.slf4j.simpleLogger.defaultLogLevel" value="info"/>
+    <property name="user.country" value="US"/>
+    <property name="ALLUSERSPROFILE" value="C:\ProgramData"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_77\jre"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="os.version" value="6.1"/>
+    <property name="POM_VERSION" value="0.0.1-SNAPSHOT"/>
+    <property name="TMP" value="C:\WINDOWS\TEMP"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.version" value="25.77-b03"/>
+    <property name="user.variant" value=""/>
+    <property name="CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="GRADLE_HOME" value="C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13"/>
+    <property name="FP_NO_HOST_CHECK" value="NO"/>
+    <property name="JAVA_HOME" value="C:\Program Files\Java\jdk1.8.0_77"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="CommonProgramFiles" value="C:\Program Files (x86)\Common Files"/>
+    <property name="ComSpec" value="C:\WINDOWS\system32\cmd.exe"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="POM_PACKAGING" value="jar"/>
+    <property name="SERVICE_ID" value="jenkins"/>
+    <property name="COMPUTERNAME" value="NACTS-081729"/>
+    <property name="user.script" value=""/>
+    <property name="POM_GROUPID" value="CompassAutomation"/>
+    <property name="PUBLIC" value="C:\Users\Public"/>
+    <property name="user.home" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="BUILD_TAG" value="jenkins-CompassAutomation-81"/>
+    <property name="JENKINS_SERVER_COOKIE" value="e365e32deb8c86f4"/>
+    <property name="HUDSON_URL" value="http://149.63.89.132:8080/"/>
+    <property name="ProgramData" value="C:\ProgramData"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="USERPROFILE" value="C:\WINDOWS\system32\config\systemprofile"/>
+    <property name="CLASSPATH" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_77\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin;C:\Program Files\Java\jdk1.8.0_77/bin;C:\Program Files\Java\jdk1.8.0_77/bin;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files\nodejs\;C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13\bin;C:\dev\bin;C:\cts\jdk8\bin;C:\dev\unix\usr\local\wbin;;."/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="APPDATA" value="C:\WINDOWS\system32\config\systemprofile\AppData\Roaming"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="maven.home" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.class.path" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-agent-1.5.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven\boot\plexus-classworlds-2.5.2.jar;C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/conf/logging"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven C:\Program Files (x86)\Jenkins\war\WEB-INF\lib\remoting-2.53.3.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar 64391"/>
+    <property name="Path" value="C:\Program Files\Java\jdk1.8.0_77/bin;C:\ProgramData\Oracle\Java\javapath;C:\oracle\product\10.2.0\clientx86_1\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\;C:\Program Files (x86)\Common Files\Roxio Shared\10.0\DLLShared\;C:\Program Files (x86)\Riverbed\Steelhead Mobile\;C:\apache-maven-3.3.9\bin;C:\Program Files\Java\jdk1.8.0_77\bin;C:\Program Files\MongoDB\Server\3.2\bin;C:\Program Files\nodejs\;C:\Users\200123\Downloads\gradle-2.13-all\gradle-2.13\bin;C:\dev\bin;C:\cts\jdk8\bin;C:\dev\unix\usr\local\wbin;"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="PROCESSOR_ARCHITECTURE" value="x86"/>
+    <property name="PATH+JDK" value="C:\Program Files\Java\jdk1.8.0_77/bin"/>
+    <property name="PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 61 Stepping 4, GenuineIntel"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.os.patch.level" value="Service Pack 1"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="M2_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.io.tmpdir" value="C:\WINDOWS\TEMP\"/>
+    <property name="OS" value="Windows_NT"/>
+    <property name="HUDSON_HOME" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="PATH+MAVEN" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven/bin"/>
+    <property name="ProgramFiles(x86)" value="C:\Program Files (x86)"/>
+    <property name="BUILD_URL" value="http://149.63.89.132:8080/job/CompassAutomation/81/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="SystemRoot" value="C:\WINDOWS"/>
+    <property name="windows_tracing_flags" value="3"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_77\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="user.dir" value="C:\Users\200123\workspace\CompassAutomation"/>
+    <property name="JOB_URL" value="http://149.63.89.132:8080/job/CompassAutomation/"/>
+    <property name="USERDOMAIN" value="CARCGNT"/>
+    <property name="line.separator" value="
+"/>
+    <property name="MAVEN_HOME" value="C:\Program Files (x86)\Jenkins\tools\hudson.tasks.Maven_MavenInstallation\Maven"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="BUILD_NUMBER" value="81"/>
+    <property name="BASE" value="C:\Program Files (x86)\Jenkins"/>
+    <property name="JENKINS_URL" value="http://149.63.89.132:8080/"/>
+    <property name="PROCESSOR_REVISION" value="3d04"/>
+    <property name="UATDATA" value="C:\Windows\SysWOW64\CCM\UATData\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77"/>
+    <property name="ProgramW6432" value="C:\Program Files"/>
+    <property name="windir" value="C:\WINDOWS"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="SystemDrive" value="C:"/>
+    <property name="maven3.interceptor" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven31-interceptor-1.5.jar"/>
+    <property name="WORKSPACE" value="C:\Program Files (x86)\Jenkins\jobs\CompassAutomation\workspace"/>
+    <property name="maven3.interceptor.common" value="C:\Program Files (x86)\Jenkins\plugins\maven-plugin\WEB-INF\lib\maven3-interceptor-commons-1.5.jar"/>
+    <property name="WINSW_EXECUTABLE" value="C:\Program Files (x86)\Jenkins\jenkins.exe"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="PSModulePath" value="C:\WINDOWS\system32\WindowsPowerShell\v1.0\Modules\"/>
+  </properties>
+  <testcase classname="automationFramework.TestCases.OrderCardTest" name="helpTest" time="72.655">
+    <failure message="Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 61.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.132&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=28.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 62d65e90-a7df-4a8b-9041-31e574d216ca" type="org.openqa.selenium.StaleElementReferenceException">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 61.66 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.132&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=28.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 62d65e90-a7df-4a8b-9041-31e574d216ca
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)
+	at automationFramework.PageObjects.HelpPage.clickLinks(HelpPage.java:29)
+	at automationFramework.TestCases.OrderCardTest.helpTest(OrderCardTest.java:212)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;
+System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.132&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;
+Driver info: driver.version: unknown
+	at &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)
+	at &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)
+	at &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11704)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+</failure>
+    <system-out>Time in Milliseconds: 0 
+Test Case: automationFramework.TestCases.OrderCardTest 
+Time Stamp: 2016-05-16 16:01:07,869 
+Code Location: automationFramework.TestCases.OrderCardTest.setUp(OrderCardTest.java:53) 
+Log Message: Setup Started 
+ 
+2016-05-16 16:01:07,869 INFO  [Logger] Setup Started 
+Time in Milliseconds: 138 
+Test Case: automationFramework.TestCases.OrderCardTest 
+Time Stamp: 2016-05-16 16:01:08,007 
+Code Location: automationFramework.TestCases.OrderCardTest.setUp(OrderCardTest.java:54) 
+Log Message: Current OS: Windows 7 Enterprise 
+ 
+2016-05-16 16:01:08,007 INFO  [Logger] Current OS: Windows 7 Enterprise 
+Time in Milliseconds: 140 
+Test Case: automationFramework.TestCases.OrderCardTest 
+Time Stamp: 2016-05-16 16:01:08,009 
+Code Location: automationFramework.TestCases.OrderCardTest.setUp(OrderCardTest.java:55) 
+Log Message: Current Browser: firefox.exe 
+ 
+2016-05-16 16:01:08,009 INFO  [Logger] Current Browser: firefox.exe 
+Time in Milliseconds: 9217 
+Test Case: automationFramework.TestCases.OrderCardTest 
+Time Stamp: 2016-05-16 16:01:17,086 
+Code Location: automationFramework.TestCases.OrderCardTest.setUp(OrderCardTest.java:58) 
+Log Message: Setup Completed 
+ 
+2016-05-16 16:01:17,086 INFO  [Logger] Setup Completed 
+2016-05-16 16:01:19,919 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:20,188 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://fast.fonts.net/cssapi/458ba616-4a40-47ef-8455-b2d62f68c2ed.css&apos; [36:12] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,188 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://fast.fonts.net/cssapi/458ba616-4a40-47ef-8455-b2d62f68c2ed.css&apos; [36:12] Ignoring the whole rule. 
+2016-05-16 16:01:20,395 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [1:2061] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,396 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [1:2061] Ignoring the whole rule. 
+2016-05-16 16:01:20,397 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:195] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,398 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:195] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,399 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:724] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,400 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:1084] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,400 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:1084] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,404 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:2461] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,462 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:2577] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,463 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:2716] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,463 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:3131] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,464 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [2:3131] Ignoring the whole rule. 
+2016-05-16 16:01:20,466 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [3:759] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,466 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [3:759] Ignoring the whole rule. 
+2016-05-16 16:01:20,467 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [4:149] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,467 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [4:149] Ignoring the whole rule. 
+2016-05-16 16:01:20,467 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [5:43] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,473 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [5:43] Ignoring the whole rule. 
+2016-05-16 16:01:20,473 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [6:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,474 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [6:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,474 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [7:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,474 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [7:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,474 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [8:167] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,475 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [8:167] Ignoring the whole rule. 
+2016-05-16 16:01:20,475 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [9:42] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,475 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [9:42] Ignoring the whole rule. 
+2016-05-16 16:01:20,475 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [10:42] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,475 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [10:42] Ignoring the whole rule. 
+2016-05-16 16:01:20,475 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [11:42] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,476 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [11:42] Ignoring the whole rule. 
+2016-05-16 16:01:20,478 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:768] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,478 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:768] Ignoring the whole rule. 
+2016-05-16 16:01:20,479 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1197] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,479 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1197] Ignoring the whole rule. 
+2016-05-16 16:01:20,480 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1340] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,480 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1340] Ignoring the whole rule. 
+2016-05-16 16:01:20,480 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1491] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,481 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1491] Ignoring the whole rule. 
+2016-05-16 16:01:20,481 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1620] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,481 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1620] Ignoring the whole rule. 
+2016-05-16 16:01:20,481 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1698] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,481 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1698] Ignoring the whole rule. 
+2016-05-16 16:01:20,482 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1822] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,482 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [12:1822] Ignoring the whole rule. 
+2016-05-16 16:01:20,484 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:1681] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,484 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:1681] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,485 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:1923] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,485 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:1923] Ignoring the whole rule. 
+2016-05-16 16:01:20,485 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:2120] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,485 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:2120] Ignoring the whole rule. 
+2016-05-16 16:01:20,486 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:2342] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,486 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:2342] Ignoring the whole rule. 
+2016-05-16 16:01:20,487 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:3017] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,487 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:3017] Ignoring the whole rule. 
+2016-05-16 16:01:20,487 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:3243] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,490 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:3243] Ignoring the whole rule. 
+2016-05-16 16:01:20,491 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:3833] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,491 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [13:3833] Ignoring the whole rule. 
+2016-05-16 16:01:20,492 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [14:150] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,492 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [14:150] Ignoring the whole rule. 
+2016-05-16 16:01:20,493 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [15:85] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,493 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [15:85] Ignoring the whole rule. 
+2016-05-16 16:01:20,494 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [16:264] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,494 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [16:264] Ignoring the whole rule. 
+2016-05-16 16:01:20,499 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:4474] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,500 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:4474] Ignoring the whole rule. 
+2016-05-16 16:01:20,500 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:4966] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,500 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:4966] Ignoring the whole rule. 
+2016-05-16 16:01:20,507 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10066] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,507 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10066] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,507 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10322] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,507 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10322] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,508 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10563] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,508 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10563] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,508 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10882] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,508 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [17:10882] Ignoring the whole rule. 
+2016-05-16 16:01:20,509 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [18:183] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,509 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [18:183] Ignoring the whole rule. 
+2016-05-16 16:01:20,510 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:654] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,510 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:654] Ignoring the whole rule. 
+2016-05-16 16:01:20,510 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:963] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,510 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:963] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,511 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:1516] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,511 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:1516] Ignoring the whole rule. 
+2016-05-16 16:01:20,512 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:1899] Error in expression; &apos;:&apos; found after identifier &quot;progid&quot;. 
+2016-05-16 16:01:20,513 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:2811] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,513 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:2811] Ignoring the whole rule. 
+2016-05-16 16:01:20,529 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:3522] Error in expression; &apos;:&apos; found after identifier &quot;progid&quot;. 
+2016-05-16 16:01:20,530 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:3764] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,530 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:3764] Ignoring the whole rule. 
+2016-05-16 16:01:20,531 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:4944] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,531 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:4944] Ignoring the whole rule. 
+2016-05-16 16:01:20,531 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:5357] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,532 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [19:5357] Ignoring the whole rule. 
+2016-05-16 16:01:20,538 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:1584] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,539 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:1584] Ignoring the whole rule. 
+2016-05-16 16:01:20,541 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:2554] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,541 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:2554] Ignoring the whole rule. 
+2016-05-16 16:01:20,543 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:3010] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,543 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:3010] Ignoring the whole rule. 
+2016-05-16 16:01:20,546 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:4424] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,546 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [20:4424] Ignoring the whole rule. 
+2016-05-16 16:01:20,547 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:272] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,547 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:272] Ignoring the whole rule. 
+2016-05-16 16:01:20,548 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:1080] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,548 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:1080] Ignoring the whole rule. 
+2016-05-16 16:01:20,548 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:1482] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,548 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:1482] Ignoring the whole rule. 
+2016-05-16 16:01:20,549 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:1631] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,549 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:1631] Ignoring the whole rule. 
+2016-05-16 16:01:20,550 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:3007] Error in expression; &apos;:&apos; found after identifier &quot;progid&quot;. 
+2016-05-16 16:01:20,550 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:4020] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,551 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:4020] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,551 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:4412] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,551 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:4412] Ignoring the whole rule. 
+2016-05-16 16:01:20,551 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:4699] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,551 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [21:4699] Ignoring the whole rule. 
+2016-05-16 16:01:20,552 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [22:580] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,552 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [22:580] Ignoring the whole rule. 
+2016-05-16 16:01:20,553 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:971] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,554 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:971] Ignoring the whole rule. 
+2016-05-16 16:01:20,554 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:1431] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,554 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:1431] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,554 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:1782] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,555 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:1782] Ignoring the whole rule. 
+2016-05-16 16:01:20,555 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:2162] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,555 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [23:2162] Ignoring the whole rule. 
+2016-05-16 16:01:20,555 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [24:80] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,555 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [24:80] Ignoring the whole rule. 
+2016-05-16 16:01:20,556 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:302] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,556 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:302] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,556 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:548] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,556 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:548] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,557 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:798] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,557 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:798] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,564 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:2483] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,564 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [25:2483] Ignoring the whole rule. 
+2016-05-16 16:01:20,566 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [26:1477] Error in expression; &apos;:&apos; found after identifier &quot;progid&quot;. 
+2016-05-16 16:01:20,566 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [26:1925] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,566 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [26:1925] Ignoring the whole rule. 
+2016-05-16 16:01:20,567 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [26:2168] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,567 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [26:2168] Ignoring the whole rule. 
+2016-05-16 16:01:20,567 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [26:2364] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,567 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [26:2364] Ignoring the whole rule. 
+2016-05-16 16:01:20,568 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [27:130] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,568 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [27:130] Ignoring the whole rule. 
+2016-05-16 16:01:20,568 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [27:619] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,569 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [27:619] Ignoring the whole rule. 
+2016-05-16 16:01:20,569 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,569 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,571 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:2512] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,571 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:2512] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,571 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:2889] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,571 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:2889] Ignoring the whole rule. 
+2016-05-16 16:01:20,572 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5034] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,575 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5034] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,576 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5164] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,576 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5164] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,576 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5426] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,576 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5426] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,577 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5674] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,577 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:5674] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,579 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:6641] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,581 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [28:6641] Ignoring the whole rule. 
+2016-05-16 16:01:20,583 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:82] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,586 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:82] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,586 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:296] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,586 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:296] Ignoring the whole rule. 
+2016-05-16 16:01:20,587 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:619] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,587 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:619] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,587 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1085] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,587 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1085] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,588 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1322] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,588 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1322] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,588 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1672] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,588 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1672] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,588 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1871] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,588 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1871] Ignoring the whole rule. 
+2016-05-16 16:01:20,589 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1944] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,589 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [29:1944] Ignoring the whole rule. 
+2016-05-16 16:01:20,589 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:63] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,589 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:63] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,589 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:310] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,590 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:310] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,590 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:834] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,590 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:834] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,591 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:1432] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,591 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [30:1432] Ignoring the whole rule. 
+2016-05-16 16:01:20,594 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [31:813] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,594 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [31:813] Ignoring the whole rule. 
+2016-05-16 16:01:20,597 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [31:2220] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,597 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [31:2220] Ignoring the whole rule. 
+2016-05-16 16:01:20,598 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [31:3016] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,598 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [31:3016] Ignoring the whole rule. 
+2016-05-16 16:01:20,598 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [32:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,598 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [32:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,598 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:49] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,598 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:49] Ignoring the whole rule. 
+2016-05-16 16:01:20,599 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:642] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,601 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:642] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,601 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:1099] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,601 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:1099] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,602 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:1452] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,602 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [33:1452] Ignoring the whole rule. 
+2016-05-16 16:01:20,603 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [34:48] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,603 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [34:48] Ignoring the whole rule. 
+2016-05-16 16:01:20,603 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [35:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,603 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [35:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,604 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [36:1030] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,604 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [36:1030] Ignoring the whole rule. 
+2016-05-16 16:01:20,605 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [36:1137] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,605 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [36:1137] Ignoring the whole rule. 
+2016-05-16 16:01:20,606 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [37:1000] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,606 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [37:1000] Ignoring the whole rule. 
+2016-05-16 16:01:20,606 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [37:1147] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,606 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [37:1147] Ignoring the whole rule. 
+2016-05-16 16:01:20,607 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [38:623] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,607 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [38:623] Ignoring the whole rule. 
+2016-05-16 16:01:20,607 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [39:142] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,607 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [39:142] Ignoring the whole rule. 
+2016-05-16 16:01:20,608 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [40:624] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,608 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [40:624] Ignoring the whole rule. 
+2016-05-16 16:01:20,618 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [40:1111] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,619 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [40:1111] Ignoring the whole rule. 
+2016-05-16 16:01:20,620 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [41:264] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,620 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [41:264] Ignoring the whole rule. 
+2016-05-16 16:01:20,621 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [41:813] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,621 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [41:813] Ignoring the whole rule. 
+2016-05-16 16:01:20,623 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [42:1025] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,623 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [42:1025] Ignoring the whole rule. 
+2016-05-16 16:01:20,643 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [43:1119] Error in @media rule. (Invalid token &quot;screen&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,643 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [43:1119] Ignoring the whole rule. 
+2016-05-16 16:01:20,644 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [44:431] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,644 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [44:431] Ignoring the whole rule. 
+2016-05-16 16:01:20,645 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [45:152] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,645 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [45:152] Ignoring the whole rule. 
+2016-05-16 16:01:20,646 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [45:546] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,646 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [45:546] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,646 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [45:697] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,647 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:36] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,647 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:36] Ignoring the whole rule. 
+2016-05-16 16:01:20,648 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:692] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,648 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:692] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,649 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:1100] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,649 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:1100] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,650 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:1671] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,651 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:1671] Ignoring the whole rule. 
+2016-05-16 16:01:20,651 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:2020] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,664 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:2020] Ignoring the whole rule. 
+2016-05-16 16:01:20,665 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:2333] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,665 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:2333] Ignoring the whole rule. 
+2016-05-16 16:01:20,666 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:2500] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,666 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:2500] Ignoring the whole rule. 
+2016-05-16 16:01:20,671 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:3734] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,671 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:3734] Ignoring the whole rule. 
+2016-05-16 16:01:20,671 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:3841] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,672 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:3841] Ignoring the whole rule. 
+2016-05-16 16:01:20,673 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:4176] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,673 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [46:4176] Ignoring the whole rule. 
+2016-05-16 16:01:20,673 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [47:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,673 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [47:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,674 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [47:594] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,674 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [47:594] Ignoring the whole rule. 
+2016-05-16 16:01:20,675 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [48:42] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,675 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [48:42] Ignoring the whole rule. 
+2016-05-16 16:01:20,678 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [48:1404] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,679 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [48:1404] Ignoring the whole rule. 
+2016-05-16 16:01:20,680 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [48:1715] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,681 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [49:69] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,681 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [49:69] Ignoring the whole rule. 
+2016-05-16 16:01:20,682 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [49:830] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,682 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [49:830] Ignoring the whole rule. 
+2016-05-16 16:01:20,682 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [50:183] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,682 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [50:183] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,683 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [50:292] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,683 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [50:292] Ignoring the whole rule. 
+2016-05-16 16:01:20,683 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [51:36] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,683 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [52:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,684 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [53:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,684 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [54:79] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,684 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [54:79] Ignoring the whole rule. 
+2016-05-16 16:01:20,684 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [55:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,684 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [55:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,685 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [55:148] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,685 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [55:148] Ignoring the whole rule. 
+2016-05-16 16:01:20,685 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [55:376] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,686 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [55:376] Ignoring the whole rule. 
+2016-05-16 16:01:20,686 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [56:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,686 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [56:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,687 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [57:15] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,687 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [57:15] Ignoring the whole rule. 
+2016-05-16 16:01:20,689 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:1082] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,689 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:1082] Ignoring the whole rule. 
+2016-05-16 16:01:20,690 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:1597] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,690 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:1597] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,691 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:2191] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,692 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:2191] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,692 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:2568] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,692 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:2568] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,693 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:2638] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,693 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:2638] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,695 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:3245] Error in expression; &apos;:&apos; found after identifier &quot;progid&quot;. 
+2016-05-16 16:01:20,695 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:3491] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,695 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:3491] Ignoring the whole rule. 
+2016-05-16 16:01:20,696 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:3868] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,699 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:6105] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,701 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:7187] Error in expression; &apos;:&apos; found after identifier &quot;progid&quot;. 
+2016-05-16 16:01:20,702 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:7803] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,702 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [58:7803] Ignoring the whole rule. 
+2016-05-16 16:01:20,703 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [59:181] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,703 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [59:181] Ignoring the whole rule. 
+2016-05-16 16:01:20,715 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [60:2453] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,715 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [60:2453] Ignoring the whole rule. 
+2016-05-16 16:01:20,716 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [60:3219] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,716 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [60:3219] Ignoring the whole rule. 
+2016-05-16 16:01:20,717 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [61:515] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,718 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [61:515] Ignoring the whole rule. 
+2016-05-16 16:01:20,718 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [61:592] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,718 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [61:592] Ignoring the whole rule. 
+2016-05-16 16:01:20,719 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [62:379] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,719 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [62:379] Ignoring the whole rule. 
+2016-05-16 16:01:20,720 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [62:705] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,720 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [62:705] Ignoring the whole rule. 
+2016-05-16 16:01:20,720 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [62:783] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,720 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [62:783] Ignoring the whole rule. 
+2016-05-16 16:01:20,722 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:1685] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,722 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:1685] Ignoring the whole rule. 
+2016-05-16 16:01:20,723 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:2524] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,724 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:2524] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,724 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:2927] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,724 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:2927] Ignoring the whole rule. 
+2016-05-16 16:01:20,726 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:3874] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,726 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:3874] Ignoring the whole rule. 
+2016-05-16 16:01:20,728 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:4345] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,728 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:4345] Ignoring the whole rule. 
+2016-05-16 16:01:20,729 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:4722] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,729 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:4722] Ignoring the whole rule. 
+2016-05-16 16:01:20,729 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:4819] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,729 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:4819] Ignoring the whole rule. 
+2016-05-16 16:01:20,730 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5073] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,730 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5073] Ignoring the whole rule. 
+2016-05-16 16:01:20,730 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5352] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,730 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5352] Ignoring the whole rule. 
+2016-05-16 16:01:20,731 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5571] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,731 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5571] Ignoring the whole rule. 
+2016-05-16 16:01:20,731 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5671] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,731 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5671] Ignoring the whole rule. 
+2016-05-16 16:01:20,731 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5904] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,731 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:5904] Ignoring the whole rule. 
+2016-05-16 16:01:20,732 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6252] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,732 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6252] Ignoring the whole rule. 
+2016-05-16 16:01:20,733 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6477] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,733 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6477] Ignoring the whole rule. 
+2016-05-16 16:01:20,733 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6696] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,733 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6696] Ignoring the whole rule. 
+2016-05-16 16:01:20,734 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6836] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,734 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:6836] Ignoring the whole rule. 
+2016-05-16 16:01:20,734 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:7137] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,735 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:7137] Ignoring the whole rule. 
+2016-05-16 16:01:20,735 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:7535] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,736 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:7535] Ignoring the whole rule. 
+2016-05-16 16:01:20,736 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:7967] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,736 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [63:7967] Ignoring the whole rule. 
+2016-05-16 16:01:20,737 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [64:75] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,737 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [64:75] Ignoring the whole rule. 
+2016-05-16 16:01:20,737 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [65:23] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,737 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [65:23] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,738 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [65:863] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,738 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [65:863] Ignoring the whole rule. 
+2016-05-16 16:01:20,739 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:29] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,739 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:29] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,740 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:994] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,740 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:994] Ignoring the whole rule. 
+2016-05-16 16:01:20,742 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:2442] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,742 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:2442] Ignoring the whole rule. 
+2016-05-16 16:01:20,742 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:2787] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,743 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:2787] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,743 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:2802] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,743 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:2852] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,743 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [66:2902] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,744 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:106] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,744 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:106] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,744 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:172] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,744 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:172] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,747 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:2394] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,749 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:4066] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,752 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:5738] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,755 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:7788] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,756 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [67:7984] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,756 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [68:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,756 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [69:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,757 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [70:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,757 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [70:227] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,757 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [71:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,758 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [72:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,758 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [73:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,769 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [73:228] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,769 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [74:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,770 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [75:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,770 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [76:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,770 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [76:205] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,771 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [77:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,771 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [78:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,771 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [79:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,771 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [79:70] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,772 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [79:155] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,772 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [79:241] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,773 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [82:243] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,773 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [82:243] Ignoring the whole rule. 
+2016-05-16 16:01:20,777 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [82:3300] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,777 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [82:3300] Ignoring the whole rule. 
+2016-05-16 16:01:20,778 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:119] Error in style rule. (Invalid token &quot;*&quot;. Was expecting one of: &lt;EOF&gt;, &lt;S&gt;, &lt;IDENT&gt;, &quot;}&quot;, &quot;;&quot;.) 
+2016-05-16 16:01:20,778 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:119] Ignoring the following declarations in this rule. 
+2016-05-16 16:01:20,778 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:521] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,778 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:521] Ignoring the whole rule. 
+2016-05-16 16:01:20,780 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:2886] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,781 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:2886] Ignoring the whole rule. 
+2016-05-16 16:01:20,781 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:3347] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,781 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:3347] Ignoring the whole rule. 
+2016-05-16 16:01:20,784 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:5229] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,784 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:5229] Ignoring the whole rule. 
+2016-05-16 16:01:20,785 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:5672] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,785 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:5672] Ignoring the whole rule. 
+2016-05-16 16:01:20,786 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:5896] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,786 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:5896] Ignoring the whole rule. 
+2016-05-16 16:01:20,787 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:6580] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,787 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:6580] Ignoring the whole rule. 
+2016-05-16 16:01:20,789 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:7954] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,789 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:7954] Ignoring the whole rule. 
+2016-05-16 16:01:20,790 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8216] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,790 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8216] Ignoring the whole rule. 
+2016-05-16 16:01:20,790 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8329] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,790 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8329] Ignoring the whole rule. 
+2016-05-16 16:01:20,791 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8632] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,791 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8632] Ignoring the whole rule. 
+2016-05-16 16:01:20,791 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8947] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,792 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:8947] Ignoring the whole rule. 
+2016-05-16 16:01:20,792 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:9203] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,792 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:9203] Ignoring the whole rule. 
+2016-05-16 16:01:20,793 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:9594] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,793 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:9594] Ignoring the whole rule. 
+2016-05-16 16:01:20,797 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:13825] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,797 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [83:13825] Ignoring the whole rule. 
+2016-05-16 16:01:20,798 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:505] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,799 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:505] Ignoring the whole rule. 
+2016-05-16 16:01:20,799 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:690] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,799 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:690] Ignoring the whole rule. 
+2016-05-16 16:01:20,800 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:1198] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,800 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:1198] Ignoring the whole rule. 
+2016-05-16 16:01:20,800 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:1303] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,800 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [84:1303] Ignoring the whole rule. 
+2016-05-16 16:01:20,802 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [85:982] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,802 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [85:982] Ignoring the whole rule. 
+2016-05-16 16:01:20,802 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:149] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,803 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:149] Ignoring the whole rule. 
+2016-05-16 16:01:20,803 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:279] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,803 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:279] Ignoring the whole rule. 
+2016-05-16 16:01:20,804 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:724] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,804 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:724] Ignoring the whole rule. 
+2016-05-16 16:01:20,804 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:908] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,805 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:908] Ignoring the whole rule. 
+2016-05-16 16:01:20,805 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:1056] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,805 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:1056] Ignoring the whole rule. 
+2016-05-16 16:01:20,806 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:1440] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,806 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [86:1440] Ignoring the whole rule. 
+2016-05-16 16:01:20,808 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [87:1324] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,812 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [87:1324] Ignoring the whole rule. 
+2016-05-16 16:01:20,813 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [88:179] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,813 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [88:179] Ignoring the whole rule. 
+2016-05-16 16:01:20,813 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [89:70] Error in @media rule. (Invalid token &quot;and&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,814 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/css/styles.css&apos; [89:70] Ignoring the whole rule. 
+2016-05-16 16:01:20,827 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/&apos; [1:8] Error in media list. (Invalid token &quot;(&quot;. Was expecting one of: &lt;S&gt;, &lt;IDENT&gt;.) 
+2016-05-16 16:01:20,906 INFO  [InputElementFactory] Bad input type: &quot;search&quot;, creating a text input 
+2016-05-16 16:01:20,906 INFO  [InputElementFactory] Bad input type: &quot;tel&quot;, creating a text input 
+2016-05-16 16:01:20,907 INFO  [InputElementFactory] Bad input type: &quot;url&quot;, creating a text input 
+2016-05-16 16:01:20,907 INFO  [InputElementFactory] Bad input type: &quot;email&quot;, creating a text input 
+2016-05-16 16:01:20,908 INFO  [InputElementFactory] Bad input type: &quot;datetime&quot;, creating a text input 
+2016-05-16 16:01:20,908 INFO  [InputElementFactory] Bad input type: &quot;date&quot;, creating a text input 
+2016-05-16 16:01:20,909 INFO  [InputElementFactory] Bad input type: &quot;month&quot;, creating a text input 
+2016-05-16 16:01:20,909 INFO  [InputElementFactory] Bad input type: &quot;week&quot;, creating a text input 
+2016-05-16 16:01:20,909 INFO  [InputElementFactory] Bad input type: &quot;time&quot;, creating a text input 
+2016-05-16 16:01:20,910 INFO  [InputElementFactory] Bad input type: &quot;datetime-local&quot;, creating a text input 
+2016-05-16 16:01:20,910 INFO  [InputElementFactory] Bad input type: &quot;number&quot;, creating a text input 
+2016-05-16 16:01:20,911 INFO  [InputElementFactory] Bad input type: &quot;range&quot;, creating a text input 
+2016-05-16 16:01:20,912 INFO  [InputElementFactory] Bad input type: &quot;color&quot;, creating a text input 
+2016-05-16 16:01:20,929 WARN  [DefaultCssErrorHandler] CSS error: &apos;http://rws.van-wtx.wd.cubic.com/&apos; [1:13] Error in @media rule. (Invalid token &quot;all&quot;. Was expecting one of: &lt;S&gt;, &lt;LBRACE&gt;, &lt;COMMA&gt;.) 
+2016-05-16 16:01:20,929 WARN  [DefaultCssErrorHandler] CSS warning: &apos;http://rws.van-wtx.wd.cubic.com/&apos; [1:13] Ignoring the whole rule. 
+2016-05-16 16:01:21,044 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;text/javascript&apos;. 
+2016-05-16 16:01:21,383 WARN  [ActiveXObject] Automation server can&apos;t create object for &apos;ShockwaveFlash.ShockwaveFlash.7&apos;. 
+2016-05-16 16:01:21,383 ERROR [StrictErrorReporter] runtimeError: message=[Automation server can&apos;t create object for &apos;ShockwaveFlash.ShockwaveFlash.7&apos;.] sourceName=[http://www.google-analytics.com/analytics.js] line=[18] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:21,384 WARN  [ActiveXObject] Automation server can&apos;t create object for &apos;ShockwaveFlash.ShockwaveFlash.6&apos;. 
+2016-05-16 16:01:21,384 ERROR [StrictErrorReporter] runtimeError: message=[Automation server can&apos;t create object for &apos;ShockwaveFlash.ShockwaveFlash.6&apos;.] sourceName=[http://www.google-analytics.com/analytics.js] line=[18] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:21,385 WARN  [ActiveXObject] Automation server can&apos;t create object for &apos;ShockwaveFlash.ShockwaveFlash&apos;. 
+2016-05-16 16:01:21,385 ERROR [StrictErrorReporter] runtimeError: message=[Automation server can&apos;t create object for &apos;ShockwaveFlash.ShockwaveFlash&apos;.] sourceName=[http://www.google-analytics.com/analytics.js] line=[18] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:21,412 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;text/javascript&apos;. 
+2016-05-16 16:01:21,481 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:21,530 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:21,559 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:21,584 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:21,662 ERROR [StrictErrorReporter] runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://rws.van-wtx.wd.cubic.com/ScriptResource.axd?d=yJEokijoA-31Sqdq53eQc-LxpGFkgDLPFSkSi65rVrcV85jXVy_RA0erd8dyhKJoTN_7dNP4l8g8MqT3QGPf6lScRTjVJPCS9HmfXURsH84kAsgFumlVuigoiEwxMZxT9ZvmNH8BvLGpz8krx_L-yJ-fWxM1&amp;t=7b689585] line=[5] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:21,673 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:21,703 INFO  [InputElementFactory] Bad input type: &quot;email&quot;, creating a text input 
+2016-05-16 16:01:21,760 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:21,997 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;text/javascript&apos;. 
+2016-05-16 16:01:22,102 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;:checked&apos; error: Invalid selector: *:checked).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:22,104 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;:enabled&apos; error: Invalid selector: *:enabled).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:22,124 ERROR [StrictErrorReporter] runtimeError: message=[The data necessary to complete this operation is not yet available.] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:22,223 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+Status code is:200
+2016-05-16 16:01:22,458 ERROR [JavaScriptJobManagerImpl] Job run failed with unexpected RuntimeException: TypeError: Cannot set property [HTMLStyleElement].media that has only a getter to screen. (http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js#1) 
+======= EXCEPTION START ========
+EcmaError: lineNumber=[1] column=[0] lineSource=[] name=[TypeError] sourceName=[http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js] message=[TypeError: Cannot set property [HTMLStyleElement].media that has only a getter to screen. (http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js#1)]
+com.gargoylesoftware.htmlunit.ScriptException: TypeError: Cannot set property [HTMLStyleElement].media that has only a getter to screen. (http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js#1)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:705)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:620)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:513)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:637)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.setState(XMLHttpRequest.java:223)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.doSend(XMLHttpRequest.java:731)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.access$000(XMLHttpRequest.java:102)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest$1.run(XMLHttpRequest.java:611)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:620)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:513)
+	at com.gargoylesoftware.htmlunit.javascript.background.JavascriptXMLHttpRequestJob.run(JavascriptXMLHttpRequestJob.java:36)
+	at com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManagerImpl.runSingleJob(JavaScriptJobManagerImpl.java:328)
+	at com.gargoylesoftware.htmlunit.javascript.background.DefaultJavaScriptExecutor.run(DefaultJavaScriptExecutor.java:162)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: net.sourceforge.htmlunit.corejs.javascript.EcmaError: TypeError: Cannot set property [HTMLStyleElement].media that has only a getter to screen. (http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js#1)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3629)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3613)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3634)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError3(ScriptRuntime.java:3656)
+	at com.gargoylesoftware.htmlunit.javascript.SimpleScriptable.isReadOnlySettable(SimpleScriptable.java:462)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject$GetterSlot.setValue(ScriptableObject.java:259)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.putImpl(ScriptableObject.java:2796)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.put(ScriptableObject.java:521)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.putProperty(ScriptableObject.java:2479)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1574)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1569)
+	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1253)
+	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:798)
+	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:105)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:411)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:309)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3057)
+	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:103)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$4.doRun(JavaScriptEngine.java:630)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:690)
+	... 13 more
+Enclosed exception: 
+net.sourceforge.htmlunit.corejs.javascript.EcmaError: TypeError: Cannot set property [HTMLStyleElement].media that has only a getter to screen. (http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js#1)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3629)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.constructError(ScriptRuntime.java:3613)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError(ScriptRuntime.java:3634)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.typeError3(ScriptRuntime.java:3656)
+	at com.gargoylesoftware.htmlunit.javascript.SimpleScriptable.isReadOnlySettable(SimpleScriptable.java:462)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject$GetterSlot.setValue(ScriptableObject.java:259)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.putImpl(ScriptableObject.java:2796)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.put(ScriptableObject.java:521)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptableObject.putProperty(ScriptableObject.java:2479)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1574)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.setObjectProp(ScriptRuntime.java:1569)
+	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1253)
+	at script(http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js:1)
+	at script(http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js:1)
+	at script(http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js:1)
+	at script(http://rws.van-wtx.wd.cubic.com/js/lib/respond.min.js:1)
+	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:798)
+	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:105)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:411)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:309)
+	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3057)
+	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:103)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$4.doRun(JavaScriptEngine.java:630)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:690)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:620)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:513)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:637)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.setState(XMLHttpRequest.java:223)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.doSend(XMLHttpRequest.java:731)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest.access$000(XMLHttpRequest.java:102)
+	at com.gargoylesoftware.htmlunit.javascript.host.xml.XMLHttpRequest$1.run(XMLHttpRequest.java:611)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:620)
+	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:513)
+	at com.gargoylesoftware.htmlunit.javascript.background.JavascriptXMLHttpRequestJob.run(JavascriptXMLHttpRequestJob.java:36)
+	at com.gargoylesoftware.htmlunit.javascript.background.JavaScriptJobManagerImpl.runSingleJob(JavaScriptJobManagerImpl.java:328)
+	at com.gargoylesoftware.htmlunit.javascript.background.DefaultJavaScriptExecutor.run(DefaultJavaScriptExecutor.java:162)
+	at java.lang.Thread.run(Thread.java:745)
+== CALLING JAVASCRIPT ==
+
+  function () {
+      4 !== c.readyState || 200 !== c.status &amp;&amp; 304 !== c.status || b(c.responseText);
+  }
+
+======= EXCEPTION END ========
+2016-05-16 16:01:22,487 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:22,625 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:22,657 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:22,740 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:22,874 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:22,920 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:23,180 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:23,207 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:23,321 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:23,342 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:23,355 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;application/x-javascript&apos;. 
+2016-05-16 16:01:23,377 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;a:not(:contains(&quot;Authorize&quot;)):not(:contains(&quot;Continue&quot;)):not(:contains(&quot;Edit&quot;)):not(:contains(&quot;Back&quot;))&apos; error: Invalid selector: a:not(*:contains(Authorize)):not(*:contains(Continue)):not(*:contains(Edit)):not(*:contains(Back))).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:23,396 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;a:not([href*=&quot;javascript&quot;]).warning-attached&apos; error: Invalid selector: a:not(*[href*=&quot;javascript&quot;]).warning-attached).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:23,436 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;[id=&apos;sizzle-1463439682087&apos;] input:disabled&apos; error: Invalid selector: *[id=&quot;sizzle-1463439682087&quot;] input:disabled).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:23,438 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;[id=&apos;sizzle-1463439682087&apos;] input:disabled&apos; error: Invalid selector: *[id=&quot;sizzle-1463439682087&quot;] input:disabled).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:23,562 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;.password .error-message:eq(1)&apos; error: Invalid selector: *.password *.error-message:eq(1)).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:23,676 ERROR [StrictErrorReporter] runtimeError: message=[An invalid or illegal selector was specified (selector: &apos;[id=&apos;sizzle-1463439682087&apos;] &gt; li:has(a[href])&apos; error: Invalid selectors: [id=&apos;sizzle-1463439682087&apos;] &gt; li:has(a[href])).] sourceName=[http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js] line=[2] lineSource=[null] lineOffset=[0] 
+2016-05-16 16:01:24,341 WARN  [IncorrectnessListenerImpl] Obsolete content type encountered: &apos;text/javascript&apos;. 
+total number of links: 37
+Compass home
+</system-out>
+  </testcase>
+</testsuite>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ChromeTest"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="79.008">
+  <properties />
+  
+  
+            <testcase name="contactTest" time="9.768" classname="automationFramework.TestCases.OrderCardTest" />
+                <testcase name="signInTest" time="17.490" classname="automationFramework.TestCases.OrderCardTest" />
+                <testcase name="orderCardTest" time="51.750" classname="automationFramework.TestCases.OrderCardTest" />
+      
+</testsuite>

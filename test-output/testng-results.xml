@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+  </reporter-output>
+  <suite name="Automation - Suite" duration-ms="35814" started-at="2016-08-10T22:57:43Z" finished-at="2016-08-10T22:58:19Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="35814" started-at="2016-08-10T22:57:43Z" finished-at="2016-08-10T22:58:19Z">
+      <class name="automationFramework.TestCases.SecurityTest">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@6c49835d]" name="setUp" is-config="true" duration-ms="4195" started-at="2016-08-10T15:57:43Z" finished-at="2016-08-10T15:57:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickJackTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@6c49835d]" name="clickJackTest" duration-ms="30162" started-at="2016-08-10T15:57:47Z" finished-at="2016-08-10T15:58:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickJackTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@6c49835d]" name="tearDown" is-config="true" duration-ms="1417" started-at="2016-08-10T15:58:18Z" finished-at="2016-08-10T15:58:19Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.SecurityTest -->
+    </test> <!-- ChromeTest -->
+  </suite> <!-- Automation - Suite -->
+</testng-results>

@@ -15,6 +15,7 @@ import org.testng.Reporter;
 import com.gargoylesoftware.htmlunit.WebClient;
 
 import automationFramework.Utilities.Global;
+import automationFramework.Utilities.Utils;
 
 public class BaseClass {
 	
@@ -64,6 +65,7 @@ public class BaseClass {
 		driver.findElement(By.xpath(CONTACT)).click();
 	}
 	
+	
 	public String getCookie(String cookie) {
 		driver.get(Global.URL1);
 		Set<Cookie> cookies = driver.manage().getCookies();
@@ -83,22 +85,13 @@ public class BaseClass {
 		return content;
 	}
 	
-	public static void checkLinks(WebDriver driver) throws Exception {
-		
-		 List<WebElement> links=driver.findElements(By.tagName("a"));
-	     System.out.println("total number of links: " +links.size());
-	     
-	     for (int i=0; i<links.size();i++){
-	    	 if(!(links.get(i).getText().isEmpty())){
-	    		 if(links.get(i).getText()=="Home"){
-	    			 continue;
-	    		 }		 
-	    		 else{
-	    			 links.get(i).click();
-	    			 driver.navigate().back();
-	    			 links=driver.findElements(By.tagName("a"));
-	    		 } 
-	    	 }
-	     }  	
-	 }	     
+	public boolean accessSignedInUrl(WebDriver driver, String url) throws InterruptedException, AWTException{
+		driver.navigate().to(url);
+		String currentUrl = driver.getCurrentUrl();
+		System.out.println("landing page url " + currentUrl);
+		if(currentUrl.equalsIgnoreCase(url)){
+			return true;
+		}
+		return false;		
+	}	     	   
 }

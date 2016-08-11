@@ -1,13 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="ChromeTest"
-           tests="1"
+           tests="6"
            failures="0"
            errors="0"
            skipped="0"
-           time="30.162">
+           time="108.754">
   <properties />
   
   
-            <testcase name="clickJackTest" time="30.162" classname="automationFramework.TestCases.SecurityTest" />
+            <testcase name="sessionExpiresTest" time="13.231" classname="automationFramework.TestCases.SecurityTest" />
+                <testcase name="passwordMaskedTest" time="16.029" classname="automationFramework.TestCases.SecurityTest" />
+                <testcase name="clickJackTest" time="23.157" classname="automationFramework.TestCases.SecurityTest" />
+                <testcase name="accountLockoutTest" time="16.915" classname="automationFramework.TestCases.SecurityTest" />
+                <testcase name="passwordRequirementsTest" time="18.550" classname="automationFramework.TestCases.SecurityTest" />
+                <testcase name="creditCardDisplayTest" time="20.872" classname="automationFramework.TestCases.SecurityTest" />
       
 </testsuite>

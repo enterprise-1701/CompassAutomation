@@ -11,7 +11,7 @@
     <classes>
       <class name="automationFramework.TestCases.SecurityTest">
         <methods>
-          <include name="clickJackTest"/>
+          <include name="passwordRequirementsTest"/>
           <include name="tearDown"/>
           <include name="setUp"/>
         </methods>

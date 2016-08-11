@@ -1,16 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" total="6" passed="6">
   <reporter-output>
     <line>
       <![CDATA[TearDown Complete]]>
     </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="35814" started-at="2016-08-10T22:57:43Z" finished-at="2016-08-10T22:58:19Z">
+  <suite name="Automation - Suite" duration-ms="133388" started-at="2016-08-11T23:07:32Z" finished-at="2016-08-11T23:09:45Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="35814" started-at="2016-08-10T22:57:43Z" finished-at="2016-08-10T22:58:19Z">
+    <test name="ChromeTest" duration-ms="133388" started-at="2016-08-11T23:07:32Z" finished-at="2016-08-11T23:09:45Z">
       <class name="automationFramework.TestCases.SecurityTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@6c49835d]" name="setUp" is-config="true" duration-ms="4195" started-at="2016-08-10T15:57:43Z" finished-at="2016-08-10T15:57:47Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="4306" started-at="2016-08-11T16:07:32Z" finished-at="2016-08-11T16:07:36Z">
           <params>
             <param index="0">
               <value>
@@ -21,11 +36,121 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickJackTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@6c49835d]" name="clickJackTest" duration-ms="30162" started-at="2016-08-10T15:57:47Z" finished-at="2016-08-10T15:58:18Z">
+        <test-method status="PASS" signature="accountLockoutTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="accountLockoutTest" duration-ms="16915" started-at="2016-08-11T16:07:36Z" finished-at="2016-08-11T16:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- accountLockoutTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1030" started-at="2016-08-11T16:07:53Z" finished-at="2016-08-11T16:07:54Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2018" started-at="2016-08-11T16:07:54Z" finished-at="2016-08-11T16:07:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="clickJackTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="clickJackTest" duration-ms="23157" started-at="2016-08-11T16:07:56Z" finished-at="2016-08-11T16:08:19Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickJackTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@6c49835d]" name="tearDown" is-config="true" duration-ms="1417" started-at="2016-08-10T15:58:18Z" finished-at="2016-08-10T15:58:19Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1077" started-at="2016-08-11T16:08:19Z" finished-at="2016-08-11T16:08:20Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2990" started-at="2016-08-11T16:08:20Z" finished-at="2016-08-11T16:08:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="creditCardDisplayTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="creditCardDisplayTest" duration-ms="20872" started-at="2016-08-11T16:08:23Z" finished-at="2016-08-11T16:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditCardDisplayTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1093" started-at="2016-08-11T16:08:44Z" finished-at="2016-08-11T16:08:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="3001" started-at="2016-08-11T16:08:45Z" finished-at="2016-08-11T16:08:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="passwordMaskedTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="passwordMaskedTest" duration-ms="16029" started-at="2016-08-11T16:08:48Z" finished-at="2016-08-11T16:09:04Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordMaskedTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1061" started-at="2016-08-11T16:09:04Z" finished-at="2016-08-11T16:09:05Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2907" started-at="2016-08-11T16:09:05Z" finished-at="2016-08-11T16:09:08Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="passwordRequirementsTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="passwordRequirementsTest" duration-ms="18550" started-at="2016-08-11T16:09:08Z" finished-at="2016-08-11T16:09:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passwordRequirementsTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1077" started-at="2016-08-11T16:09:27Z" finished-at="2016-08-11T16:09:28Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2995" started-at="2016-08-11T16:09:28Z" finished-at="2016-08-11T16:09:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sessionExpiresTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="sessionExpiresTest" duration-ms="13231" started-at="2016-08-11T16:09:31Z" finished-at="2016-08-11T16:09:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionExpiresTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1062" started-at="2016-08-11T16:09:44Z" finished-at="2016-08-11T16:09:45Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>

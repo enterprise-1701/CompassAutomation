@@ -22,5 +22,9 @@ public class CardInfoPage extends BaseClass {
 	public String getCardInfoPanel(WebDriver driver) throws InterruptedException, AWTException {
 		return driver.findElement(By.xpath(CARD_INFO_PANEL)).getText();
 	}
+	
+	public boolean isCardInfoPanelDisplayed(WebDriver driver) throws InterruptedException, AWTException {
+		return driver.findElement(By.xpath(CARD_INFO_PANEL)).isDisplayed();
+	}
 
 }

@@ -57,8 +57,8 @@ public class AccountPage extends BaseClass {
 		driver.findElement(By.xpath(SIGNOUT)).click();
 	}
 	
-	public void clickJackLogo(WebDriver driver){
-		Security.clickJack(driver, LOGO);
+	public void clickJackLogo(WebDriver driver, int time){
+		Security.clickJack(driver, LOGO, time);
 	}
 
 }

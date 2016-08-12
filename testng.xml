@@ -3,6 +3,7 @@
 	<parameter name="browser" value="chrome.exe" />
 		<classes>
 		    <class name="automationFramework.TestCases.SecurityTest" />
+		    <class name="automationFramework.TestCases.SecurityTest2" />
 		</classes>
 	</test>
 		<listeners>

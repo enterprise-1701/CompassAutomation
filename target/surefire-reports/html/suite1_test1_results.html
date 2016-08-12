@@ -3,109 +3,113 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
 <head>
-  <title>Test Results Report - FirefoxTest</title>
+  <title>Test Results Report - ChromeTest</title>
   <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
   <meta name="description" content="TestNG unit test results." />
   <link href="reportng.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="reportng.js"></script>
 </head>
 <body>
-<h1>FirefoxTest</h1>
+<h1>ChromeTest</h1>
 <p>
-  Test duration: 82.307s
+  Test duration: 167.641s
 </p>
 
 
 
+
+
   <table class="resultsTable">
-    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
           <tr>
-        <td colspan="3" class="group">automationFramework.TestCases.OrderCardTest</td>
+        <td colspan="3" class="group">automationFramework.TestCases.SecurityTest</td>
       </tr>
             
 <tr>
   <td class="method">
-                  helpTest
+                  accountLockoutTest
       </td>
   <td class="duration">
-    72.632s
+    35.971s
   </td>
   <td class="result">
         
     
         
 
-        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br/>
-Command duration or timeout: 61.66 seconds<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br/>
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;<br/>
-System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.132&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
-Driver info: org.openqa.selenium.firefox.FirefoxDriver<br/>
-Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=28.0, platform=WINDOWS, browserConnectionEnabled=true, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]<br/>
-Session ID: 62d65e90-a7df-4a8b-9041-31e574d216ca</b></a><br />
-    <div class="stackTrace" id="exception-0">
-              sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)<br />
-              sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)<br />
-              java.lang.reflect.Constructor.newInstance(Constructor.java:423)<br />
-              org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)<br />
-              org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)<br />
-              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)<br />
-              org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)<br />
-              org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:152)<br />
-              automationFramework.PageObjects.HelpPage.clickLinks(HelpPage.java:29)<br />
-              automationFramework.TestCases.OrderCardTest.helpTest(OrderCardTest.java:212)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:80)<br />
-              org.testng.internal.Invoker.invokeMethod(Invoker.java:714)<br />
-              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:901)<br />
-              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1231)<br />
-              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:127)<br />
-              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:111)<br />
-              org.testng.TestRunner.privateRun(TestRunner.java:767)<br />
-              org.testng.TestRunner.run(TestRunner.java:617)<br />
-              org.testng.SuiteRunner.runTest(SuiteRunner.java:334)<br />
-              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)<br />
-              org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)<br />
-              org.testng.SuiteRunner.run(SuiteRunner.java:240)<br />
-              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
-              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
-              org.testng.TestNG.runSuitesSequentially(TestNG.java:1198)<br />
-              org.testng.TestNG.runSuitesLocally(TestNG.java:1123)<br />
-              org.testng.TestNG.run(TestNG.java:1031)<br />
-              org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:177)<br />
-              org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:92)<br />
-              org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:105)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
-              sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br />
-              sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br />
-              java.lang.reflect.Method.invoke(Method.java:498)<br />
-              org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)<br />
-              org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)<br />
-              org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:103)<br />
-              org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:74)<br />
-                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up<br/>
-For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html<br/>
-Build info: version: &apos;2.45.0&apos;, revision: &apos;5017cb8e7ca8e37638dc3091b2440b90a1d8686f&apos;, time: &apos;2015-02-27 09:10:26&apos;<br/>
-System info: host: &apos;NACTS-081729&apos;, ip: &apos;149.63.89.132&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_77&apos;<br/>
-Driver info: driver.version: unknown</a><br />
-        <div class="stackTrace" id="exception-1">
-                      &lt;anonymous class&gt;.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)<br />
-                      &lt;anonymous class&gt;.Utils.getElementAt(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)<br />
-                      &lt;anonymous class&gt;.WebElement.getElementText(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11704)<br />
-                      &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)<br />
-                      &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///C:/WINDOWS/TEMP/anonymous1787388795656303814webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)<br />
-                  </div>
-          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  clickJackTest
+      </td>
+  <td class="duration">
+    26.931s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  creditCardDisplayTest
+      </td>
+  <td class="duration">
+    22.553s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  passwordMaskedTest
+      </td>
+  <td class="duration">
+    18.064s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  passwordRequirementsTest
+      </td>
+  <td class="duration">
+    18.286s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  sessionExpiresTest
+      </td>
+  <td class="duration">
+    15.427s
+  </td>
+  <td class="result">
+        
+    
+        
+
       </td>
 </tr>
       </table>
-
-
   
 </body>
 </html>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="6" passed="6">
+<testng-results skipped="0" failed="0" total="7" passed="7">
   <reporter-output>
     <line>
       <![CDATA[TearDown Complete]]>
@@ -19,13 +19,16 @@
     <line>
       <![CDATA[TearDown Complete]]>
     </line>
+    <line>
+      <![CDATA[TearDown Complete]]>
+    </line>
   </reporter-output>
-  <suite name="Automation - Suite" duration-ms="133388" started-at="2016-08-11T23:07:32Z" finished-at="2016-08-11T23:09:45Z">
+  <suite name="Automation - Suite" duration-ms="148717" started-at="2016-08-12T21:46:28Z" finished-at="2016-08-12T21:48:57Z">
     <groups>
     </groups>
-    <test name="ChromeTest" duration-ms="133388" started-at="2016-08-11T23:07:32Z" finished-at="2016-08-11T23:09:45Z">
+    <test name="ChromeTest" duration-ms="148717" started-at="2016-08-12T21:46:28Z" finished-at="2016-08-12T21:48:57Z">
       <class name="automationFramework.TestCases.SecurityTest">
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="4306" started-at="2016-08-11T16:07:32Z" finished-at="2016-08-11T16:07:36Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="setUp" is-config="true" duration-ms="4633" started-at="2016-08-12T14:46:28Z" finished-at="2016-08-12T14:46:33Z">
           <params>
             <param index="0">
               <value>
@@ -36,18 +39,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="accountLockoutTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="accountLockoutTest" duration-ms="16915" started-at="2016-08-11T16:07:36Z" finished-at="2016-08-11T16:07:53Z">
+        <test-method status="PASS" signature="accountLockoutTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="accountLockoutTest" duration-ms="14709" started-at="2016-08-12T14:46:33Z" finished-at="2016-08-12T14:46:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- accountLockoutTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1030" started-at="2016-08-11T16:07:53Z" finished-at="2016-08-11T16:07:54Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1072" started-at="2016-08-12T14:46:47Z" finished-at="2016-08-12T14:46:48Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2018" started-at="2016-08-11T16:07:54Z" finished-at="2016-08-11T16:07:56Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="setUp" is-config="true" duration-ms="2463" started-at="2016-08-12T14:46:48Z" finished-at="2016-08-12T14:46:51Z">
           <params>
             <param index="0">
               <value>
@@ -58,18 +61,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="clickJackTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="clickJackTest" duration-ms="23157" started-at="2016-08-11T16:07:56Z" finished-at="2016-08-11T16:08:19Z">
+        <test-method status="PASS" signature="clickJackTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="clickJackTest" duration-ms="26386" started-at="2016-08-12T14:46:51Z" finished-at="2016-08-12T14:47:17Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickJackTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1077" started-at="2016-08-11T16:08:19Z" finished-at="2016-08-11T16:08:20Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1043" started-at="2016-08-12T14:47:17Z" finished-at="2016-08-12T14:47:18Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2990" started-at="2016-08-11T16:08:20Z" finished-at="2016-08-11T16:08:23Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="setUp" is-config="true" duration-ms="2996" started-at="2016-08-12T14:47:18Z" finished-at="2016-08-12T14:47:21Z">
           <params>
             <param index="0">
               <value>
@@ -80,18 +83,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="creditCardDisplayTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="creditCardDisplayTest" duration-ms="20872" started-at="2016-08-11T16:08:23Z" finished-at="2016-08-11T16:08:44Z">
+        <test-method status="PASS" signature="creditCardDisplayTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="creditCardDisplayTest" duration-ms="18385" started-at="2016-08-12T14:47:21Z" finished-at="2016-08-12T14:47:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- creditCardDisplayTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1093" started-at="2016-08-11T16:08:44Z" finished-at="2016-08-11T16:08:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1049" started-at="2016-08-12T14:47:40Z" finished-at="2016-08-12T14:47:41Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="3001" started-at="2016-08-11T16:08:45Z" finished-at="2016-08-11T16:08:48Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="setUp" is-config="true" duration-ms="2956" started-at="2016-08-12T14:47:41Z" finished-at="2016-08-12T14:47:44Z">
           <params>
             <param index="0">
               <value>
@@ -102,18 +105,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="passwordMaskedTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="passwordMaskedTest" duration-ms="16029" started-at="2016-08-11T16:08:48Z" finished-at="2016-08-11T16:09:04Z">
+        <test-method status="PASS" signature="passwordMaskedTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="passwordMaskedTest" duration-ms="18503" started-at="2016-08-12T14:47:44Z" finished-at="2016-08-12T14:48:02Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passwordMaskedTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1061" started-at="2016-08-11T16:09:04Z" finished-at="2016-08-11T16:09:05Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1059" started-at="2016-08-12T14:48:02Z" finished-at="2016-08-12T14:48:03Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2907" started-at="2016-08-11T16:09:05Z" finished-at="2016-08-11T16:09:08Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="setUp" is-config="true" duration-ms="3038" started-at="2016-08-12T14:48:03Z" finished-at="2016-08-12T14:48:06Z">
           <params>
             <param index="0">
               <value>
@@ -124,18 +127,18 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="passwordRequirementsTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="passwordRequirementsTest" duration-ms="18550" started-at="2016-08-11T16:09:08Z" finished-at="2016-08-11T16:09:27Z">
+        <test-method status="PASS" signature="passwordRequirementsTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="passwordRequirementsTest" duration-ms="19210" started-at="2016-08-12T14:48:06Z" finished-at="2016-08-12T14:48:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- passwordRequirementsTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1077" started-at="2016-08-11T16:09:27Z" finished-at="2016-08-11T16:09:28Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1030" started-at="2016-08-12T14:48:26Z" finished-at="2016-08-12T14:48:27Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
             </line>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="setUp" is-config="true" duration-ms="2995" started-at="2016-08-11T16:09:28Z" finished-at="2016-08-11T16:09:31Z">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="setUp" is-config="true" duration-ms="3287" started-at="2016-08-12T14:48:27Z" finished-at="2016-08-12T14:48:30Z">
           <params>
             <param index="0">
               <value>
@@ -146,11 +149,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="sessionExpiresTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="sessionExpiresTest" duration-ms="13231" started-at="2016-08-11T16:09:31Z" finished-at="2016-08-11T16:09:44Z">
+        <test-method status="PASS" signature="sessionExpiresTest()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="sessionExpiresTest" duration-ms="13201" started-at="2016-08-12T14:48:30Z" finished-at="2016-08-12T14:48:43Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- sessionExpiresTest -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@614ddd49]" name="tearDown" is-config="true" duration-ms="1062" started-at="2016-08-11T16:09:44Z" finished-at="2016-08-11T16:09:45Z">
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest@10bbd20a]" name="tearDown" is-config="true" duration-ms="1062" started-at="2016-08-12T14:48:43Z" finished-at="2016-08-12T14:48:44Z">
           <reporter-output>
             <line>
               <![CDATA[TearDown Complete]]>
@@ -158,6 +161,30 @@
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- automationFramework.TestCases.SecurityTest -->
+      <class name="automationFramework.TestCases.SecurityTest2">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:automationFramework.TestCases.SecurityTest2@5e853265]" name="setUp" is-config="true" duration-ms="3163" started-at="2016-08-12T14:48:44Z" finished-at="2016-08-12T14:48:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.exe]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="sessionExpiresTest()[pri:0, instance:automationFramework.TestCases.SecurityTest2@5e853265]" name="sessionExpiresTest" duration-ms="7977" started-at="2016-08-12T14:48:47Z" finished-at="2016-08-12T14:48:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- sessionExpiresTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:automationFramework.TestCases.SecurityTest2@5e853265]" name="tearDown" is-config="true" duration-ms="1411" started-at="2016-08-12T14:48:55Z" finished-at="2016-08-12T14:48:57Z">
+          <reporter-output>
+            <line>
+              <![CDATA[TearDown Complete]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- automationFramework.TestCases.SecurityTest2 -->
     </test> <!-- ChromeTest -->
   </suite> <!-- Automation - Suite -->
 </testng-results>

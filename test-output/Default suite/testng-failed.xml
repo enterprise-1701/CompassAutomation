@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="automationFramework.TestCases.OrderCardTest">
+      <class name="automationFramework.TestCases.SecurityTest2">
         <methods>
-          <include name="helpPageTest"/>
+          <include name="sessionExpiresTest"/>
         </methods>
-      </class> <!-- automationFramework.TestCases.OrderCardTest -->
+      </class> <!-- automationFramework.TestCases.SecurityTest2 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -79,9 +79,9 @@ public class BaseClass {
 		return code;
 	}
 	
-	public static String getPageContent() throws IOException {
+	public static String getPageContent(String url) throws IOException {
 		WebClient webClient = new WebClient();
-		String content = webClient.getPage(Global.URL1).getWebResponse().getContentAsString();
+		String content = webClient.getPage(url).getWebResponse().getContentAsString();
 		return content;
 	}
 	

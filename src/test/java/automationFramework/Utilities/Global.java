@@ -24,5 +24,6 @@ public class Global {
 	public static final String LOGIN_ERROR = "You've entered an invalid email address or password.";
 	public static final String ACCOUNT_URL = "http://rws.van-wtx-db.wd.cubic.com/Account";
 	public static final String MANAGE_CARD_URL = "http://rws.van-wtx-db.wd.cubic.com/ManageCards";
+	public static final String ERROR_PAGE = "http://rws.van-wtx-db.wd.cubic.com/ManageCardss";
 	
 }
